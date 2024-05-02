@@ -1,0 +1,62 @@
+<div class="container">
+  <h1>Real Time Products</h1>
+
+  <div class="tabla">
+    <table>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Code</th>
+          <th>Stock</th>
+          <th>Thumbnail</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody id="app">
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <div class="formulario">
+   
+      <table>
+        <thead>
+          <tr>
+            
+            <th>Title</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Code</th>
+            <th>Stock</th>
+            <th>Thumbnail</th>
+            <th>Actions</th>
+          </tr>
+          <tr>
+            
+            <th><input id="title" type="text" placeholder="Title" /></th>
+            <th><input
+                id="description"
+                type="text"
+                placeholder="Description"
+              /></th>
+            <th><input id="price" type="text" placeholder="Price" /></th>
+            <th><input id="code" type="text" placeholder="Code" /></th>
+            <th><input id="stock" type="text" placeholder="Stock" /></th>
+            <th><input id="thumbnail" type="text" placeholder="Thumbnail"/></th>
+            <th> <button id="send">Agregar</button></tr>
+        </thead>
+      </table>
+    
+  </div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realtimeproducts.js"></script>
